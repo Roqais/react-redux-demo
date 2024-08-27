@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh; /* Sets minimum height to 100% of the viewport height */
+  min-width: 100%;
+}
+
+.app-section {
+  border: 1px solid rgb(130, 79, 79);
+  padding: 2rem 4rem;
+  margin-top: 3rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Adjust values as needed */
+  background-color: rgb(7, 47, 49);
+  border-radius: 3%;
+  color: white;
+}
+
+.cake {
+    margin: 2rem;
+}
+
+.icecream {
+    margin: 2rem;
+}
+
+.button-ordered {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+.button-ordered:hover {
+  background-color: #259d2b; /* Darker green on hover */
+}
+
+.button-restocked {
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+.button-restocked:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+
